@@ -1,0 +1,5 @@
+# Dataset da atividade de MongoDB (descomente se for grande demais para o GitHub)
+# mongodb/restaurantes.json
+
+.DS_Store
+Thumbs.db
