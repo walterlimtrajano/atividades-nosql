@@ -1,0 +1,4 @@
+db.restaurants.find({})
+db.restaurants.find({ borough: "Manhattan" })
+db.restaurants.find({ "address.zipcode": "10022" })
+db.restaurants.find({ "grades.grade": "B" })

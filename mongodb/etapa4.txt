@@ -1,0 +1,4 @@
+db.restaurants.find({ "grades.score": { $gt: 30 } })
+db.restaurants.find({ "grades.score": { $lt: 10 } })
+db.restaurants.find({ $and: [ { cuisine: "Italian" }, { "address.zipcode": "10075" } ] })
+db.restaurants.find({ $or: [ { cuisine: "Italian" }, { "address.zipcode": "10075" } ] })
