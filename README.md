@@ -43,8 +43,3 @@ Manipulação via HTTP (REST) com `curl`, nos buckets `professores`, `alunos` e 
 Como executar: com o Riak ativo (porta 8098), rode os comandos de [`riak/comandos.sh`](riak/comandos.sh).
 
 > O Riak só tem distribuição para Linux e macOS. No Windows, use WSL ou Docker.
-
-## Entregáveis
-
-- Etapas com print: coloque as imagens em `prints/` de cada atividade.
-- Etapas com arquivo texto: os comandos estão em `comandos.js` e `comandos.sh`.
